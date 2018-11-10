@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pdjaya.identity:
+    image: ${DOCKER_REGISTRY}pdjayaidentity
+    build:
+      context: .
+      dockerfile: PDJaya.Identity/Dockerfile

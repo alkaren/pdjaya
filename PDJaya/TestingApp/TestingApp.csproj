@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="3.10.0-arran" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PDJaya.Models\PDJaya.Models.csproj" />
+  </ItemGroup>
+
+</Project>

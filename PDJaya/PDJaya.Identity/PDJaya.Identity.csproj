@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>57c2f1d9-51fa-41ba-a89b-8d4aec8d6834</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PDJaya.Models\PDJaya.Models.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JSONSchema="http://json.schemastore.org/asmdef" /></VisualStudio></ProjectExtensions>
+
+</Project>

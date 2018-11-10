@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="11195b19f00c434b888e07c55b102d75" Name="Diagram1">
+        <EntityTypeShape EntityType="PDJayaModel.applog" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.bill" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.device" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.group" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.market" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.payment" Width="1.5" PointX="6.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.synclog" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.tenantcard" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.tenant" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.usergroup" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.userprofile" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_applications" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_membership" Width="1.5" PointX="11.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_paths" Width="1.5" PointX="11.75" PointY="6.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_personalizationallusers" Width="1.5" PointX="11.75" PointY="9.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_personalizationperuser" Width="1.5" PointX="7.75" PointY="12.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_profiles" Width="1.5" PointX="9.75" PointY="12.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_roles" Width="1.5" PointX="11.75" PointY="12.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_sessioncleanup" Width="1.5" PointX="13.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_sessions" Width="1.5" PointX="0.75" PointY="13.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_sitemap" Width="1.5" PointX="13.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_users" Width="1.5" PointX="13.75" PointY="6.75" />
+        <EntityTypeShape EntityType="PDJayaModel.my_aspnet_usersinroles" Width="1.5" PointX="13.75" PointY="9.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
